@@ -90,6 +90,10 @@ _TEXT_GENERATION_MODELS = {
     "DeepseekForCausalLM": ("deepseek_v2", "DeepseekForCausalLM"),
     "DeepseekV2ForCausalLM": ("deepseek_v2", "DeepseekV2ForCausalLM"),
     "DeepseekV3ForCausalLM": ("deepseek_v2", "DeepseekV3ForCausalLM"),
+    "DeepSeekV4RotatedForCausalLM": (
+        "deepseek_v4_rotated",
+        "DeepSeekV4RotatedForCausalLM",
+    ),
     "DeepseekV32ForCausalLM": (
         "vllm.models.deepseek_v32",
         "DeepseekV32ForCausalLM",
